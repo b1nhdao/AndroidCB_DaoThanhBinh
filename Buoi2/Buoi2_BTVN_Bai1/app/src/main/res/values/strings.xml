@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Buoi2_BTVN_Bai1</string>
+    <string name="result">Ket qua</string>
+    <string name="plus">+</string>
+    <string name="sub">-</string>
+    <string name="multi">*</string>
+    <string name="division">/</string>
+    <string name="idk">%</string>
+</resources>
