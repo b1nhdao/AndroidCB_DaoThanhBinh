@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="discovery_title">Discovery</string>
+    <string name="new_arrival">New \nArrival</string>
+</resources>
