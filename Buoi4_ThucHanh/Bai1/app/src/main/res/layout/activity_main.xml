@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_numa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Số a: "
+            android:textColor="#6B6B6B"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_numa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Nhập số a"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_numb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Số b: "
+            android:textColor="#6B6B6B"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_numb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Nhập số b"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_ketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tong"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:background="#0000ff"/>
+
+    <Button
+        android:id="@+id/btn_cong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_button_1"
+        android:text="TỔNG 2 SỐ"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_tru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_button_1"
+        android:text="HIỆU 2 SỐ"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_nhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_button_1"
+        android:text="TÍCH 2 SỐ"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_chia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_button_1"
+        android:text="THƯƠNG 2 SỐ"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_ucln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_button_1"
+        android:text="ƯỚC CHUNG LỚN NHẤT"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/btn_thoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_button_1"
+        android:text="THOÁT CHƯƠNG TRÌNH"
+        android:textColor="#ff0000" />
+
+</LinearLayout>
