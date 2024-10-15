@@ -16,6 +16,7 @@ public class DetailStoryAdapter extends PagerAdapter {
     private Context mContext;
 
     public DetailStoryAdapter(ArrayList<Story> listStories, Context mContext) {
+        this.listStories =listStories;
         this.mContext = mContext;
     }
 

@@ -30,7 +30,7 @@ public class DetailStoryFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle
             savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.detail_story, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_detail_story, container, false);
         initViews(rootView);
         return rootView;
     }
@@ -58,5 +58,4 @@ public class DetailStoryFragment extends Fragment {
         this.topicName = topicName;
         this.listStories = listStory;
     }
-
 }

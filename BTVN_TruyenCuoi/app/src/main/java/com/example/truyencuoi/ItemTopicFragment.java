@@ -56,6 +56,7 @@ public class ItemTopicFragment extends Fragment implements View.OnClickListener 
             e.printStackTrace();
         }
     }
+
     public void onClick(View v) {
         ((MainActivity) getActivity()).gotoStoryScreen((String)v.getTag());
     }
