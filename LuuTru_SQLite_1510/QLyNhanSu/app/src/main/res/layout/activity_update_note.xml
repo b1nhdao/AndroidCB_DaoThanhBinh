@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateNote">
+
+    <Button
+        android:id="@+id/btn_selectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginBottom="309dp"
+        android:text="chon ngay"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_date"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="307dp"
+        android:hint="nhap ngay"
+        android:inputType="date"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="15dp"
+        android:text="contentID"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_sua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="577dp"
+        android:text="Sua" />
+
+    <Button
+        android:id="@+id/btn_xoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="79dp"
+        android:text="Xoa" />
+
+    <EditText
+        android:id="@+id/edt_content"
+        android:layout_width="342dp"
+        android:layout_height="173dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="104dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+</RelativeLayout>
